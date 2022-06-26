@@ -13,7 +13,7 @@ docker run -d -p 20200:8080 --name mycontainer tomcat:v1
 
 echo "If you're seeing this, you've successfully installed Tomcat. Congratulations!" > result.txt
 
-vi /opt/tomcat/conf/tomcat-users.xml      <user name="logwire" password="docker" roles="manager-gui,admin-gui " />
+vi /opt/tomcat/conf/tomcat-users.xml 
 
 docker image tag tomcat:v1 abdeslamtafoukt/tomcat:v1
 
